@@ -67,4 +67,33 @@ document.querySelector(`audio[data-key="65"]`)
 
 ### Arrow Function
 
-If you wanna use an
+For example, you can write the anonymous function by this way:
+
+```javascript
+function (key) {
+  key.addEventListener('transformend', removeTransition);
+}
+```
+
+While using arrow function, you can write the above code like this:
+
+```javascript
+key => key.addEventListener('transformend', removeTransition);
+```
+
+But here is a thing you need to know, the main difference is where `this` point to. [Arrow Fcuntions/Description - MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions#description)
+
+```javascript
+'use strict';
+
+var obj = { // does not create a new scope
+  i: 10,
+  b: () => console.log(this.i, this),
+  c: function() {
+    console.log(this.i, this);
+  }
+}
+
+obj.b(); // prints undefined, Window {...} (or the global object)
+obj.c(); // prints 10, Object {...}
+```
