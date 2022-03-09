@@ -33,5 +33,29 @@ Once you call `new Date()` on code, it represents a single moment at the time yo
 - `Date().getMinutes()`
 - `Date().getSeconds()`
 
-### Timing function: Linear and Cubic Bézier
+### Easing functions: Linear and Cubic Bézier
 
+In this case, easing functions are used to make the vibration of the clock hands. You can see all common easing functions in following links:
+
+- [<easing-function> - MDN](https://developer.mozilla.org/docs/Web/CSS/easing-function)
+- [Easing Functions Cheat Sheet](https://easings.net)
+
+### setInterval()
+
+`setInterval()` can execute a function at a specified interval of time. But some articles say that `setInterval()` is not a good choice for a clock, because it is not accurate.
+
+[setInterval() - MDN](https://developer.mozilla.org/docs/Web/API/setInterval)
+
+The relative way to approach timer is to use `requestAnimationFrame()` and `cancelAnimationFrame()`:
+
+[Window.requestAnimationFrame() - MDN](https://developer.mozilla.org/docs/Web/API/window/requestAnimationFrame)
+
+### Figure out the calculate of hands' angle
+
+Here are the `FINISHED.html` provides the calculate of hands' angle. Later will be added more details.
+
+```javascript
+const secondsDegrees = ((seconds / 60) * 360) + 90;
+const minsDegrees = ((mins / 60) * 360) + ((seconds / 60) * 6) + 90;
+const hourDegrees = ((hour / 12) * 360) + ((mins / 60) * 30) + 90;
+```
