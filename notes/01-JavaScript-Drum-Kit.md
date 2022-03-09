@@ -39,7 +39,7 @@ document.querySelector(`audio[data-key="65"]`)
 
   3. `transitionend` can listen on an element's transition running status. When it ends, this event starts working. It's used to remove the class `playing`.
 
-### 元素选择 API…
+### DOM element selection APIs
 
 常见的元素选择 API 包括：
 
@@ -48,17 +48,17 @@ document.querySelector(`audio[data-key="65"]`)
 - `document.getElementById()`
 - ...
 
-### `<audio>` 标签的 JavaScript APIs
+### APIs for `<audio>` element
 
 1. [\<audio\> - MDN](https://developer.mozilla.org/docs/Web/HTML/Element/audio)
 
-    常见的操作有：`play()`、`pause()`...
+  常见的操作有：`play()`、`pause()`...
 
 2. 无冲突地播放音频
 
-    利用 `audio.currentTime = 0`，将会让当前音频播放时间设置为 0，即每次按键都重置播放时间，这样能够做到瞬时播放音频。
+  利用 `audio.currentTime = 0`，将会让当前音频播放时间设置为 0，即每次按键都重置播放时间，这样能够做到瞬时播放音频。
 
-### 元素的 `class` 操作
+### APIs for manipulating element's CSS style
 
 当变量为 Node 时，可以使用 `classList()` 对元素的 `class` 进行添加或删除操作：
 
