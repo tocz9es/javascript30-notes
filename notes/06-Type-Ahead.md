@@ -39,3 +39,21 @@ The final functions should be add the highlight class to the matched text. So we
 ### `new RegExp()`
 
 `new RegExp()` makes a new regular expression. The first argument is the pattern, and the second argument is the flags. More on [RegExp - MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp).
+
+### Spread Operator: `...`
+
+Sometimes we met a situation that need to fit array's items into array. It's way too complicated that using for loop. So we can use spread operator to solve this.
+
+```javascript
+
+const arr = [1, 2, 3];
+
+// Before
+const newArr = [-1, 0];
+for (let i = 0; i < arr.length; i++) {
+  newArr.push(arr[i]);
+}
+
+// After
+const newArr = [-1, 0, ...arr];
+```
