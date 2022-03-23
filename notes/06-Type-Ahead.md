@@ -32,7 +32,7 @@ In this showcase, when a keyword has been given, we can `filter()` the array to 
 
 ### Manipulate String
 
-You can make a simple regex match using `match()` method. But user input is a variable, so should using `new RegExp()` to create a new regex.
+You can make a simple regex match using `match()` method. But user input is a variable, so it's better to use `new RegExp()` creating a regex with a variable as the pattern.
 
 The final functions should be add the highlight class to the matched text. So we use regex and `replace()` to find and replace the matched text.
 
