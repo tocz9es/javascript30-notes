@@ -1,8 +1,8 @@
 # Flex Panel Gallery
 
-## Target
+## Goal
 
-1. Using flexbox to display the desired effect of panels
+Using flexbox to display the desired effect of panels
 
 ## Concepts
 

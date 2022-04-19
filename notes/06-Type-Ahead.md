@@ -2,9 +2,9 @@
 
 ## Goal
 
-  1. Fetch JSON data from certain URL
-  2. Filter result by user input
-  3. Display result and highlight the matched text
+1. Fetch JSON data from certain URL
+2. Filter result by user input
+3. Display result and highlight the matched text
 
 ## Concepts
 

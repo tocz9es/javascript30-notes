@@ -2,7 +2,7 @@
 
 ## Goal
 
-1. Finish all the tasks descriped in the `START.html`
+Finish all the tasks descriped in the `START.html`
 
 ## Concepts
 

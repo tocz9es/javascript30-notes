@@ -14,3 +14,4 @@ Just record concepts about learning JavaScript 30 course.
 8. [Fun with HTML5 Canvas](https://github.com/tocz9es/javascript30-notes/tree/main/notes/08-Fun-with-HTML5-Canvas.md)
 9. [14 Must Know Dev Tools Tricks](https://github.com/tocz9es/javascript30-notes/tree/main/notes/09-14-Must-Know-Dev-Tools-Tricks.md)
 10. [[Advanced] Hold Shift to Check Multiple Checkboxes](https://github.com/tocz9es/javascript30-notes/tree/main/notes/10-Hold-Shift-to-Check-Multiple-Checkboxes.md)
+11. [Custom Video Player](https://github.com/tocz9es/javascript30-notes/tree/main/notes/11-Custom-Video-Player.md)

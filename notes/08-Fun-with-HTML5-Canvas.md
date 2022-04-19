@@ -1,6 +1,6 @@
 # Fun with HTML5 Canvas
 
-## Goals
+## Goal
 
 1. Press down the mouse to draw lines on the canvas.
 2. Using `hsl()` to dynamicly transform colors on the lines.

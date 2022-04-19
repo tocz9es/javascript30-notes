@@ -1,6 +1,6 @@
 # Hold Shift to Check Multiple Checkboxes
 
-## Goals
+## Goal
 
 Check an item in a list, hold `Shift` and click on another item to check items in between.
 

@@ -1,9 +1,9 @@
 # CSS Variables
 
-## Target
+## Goal
 
 1. Create proper CSS varibles, and replace the static rules with
-1. Using JavaScript to control CSS variables
+2. Using JavaScript to control CSS variables
 
 ## Concepts
 

@@ -1,8 +1,8 @@
 # Array Cardio Day 1
 
-## Target
+## Goal
 
-1. Using Array functions: `map()`, `sort()`, `filter()`, `reduce()`...
+Using Array functions: `map()`, `sort()`, `filter()`, `reduce()`...
 
 ## Concepts
 
