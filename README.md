@@ -15,3 +15,4 @@ Just record concepts about learning JavaScript 30 course.
 9. [14 Must Know Dev Tools Tricks](https://github.com/tocz9es/javascript30-notes/tree/main/notes/09-14-Must-Know-Dev-Tools-Tricks.md)
 10. [[Advanced] Hold Shift to Check Multiple Checkboxes](https://github.com/tocz9es/javascript30-notes/tree/main/notes/10-Hold-Shift-to-Check-Multiple-Checkboxes.md)
 11. [Custom Video Player](https://github.com/tocz9es/javascript30-notes/tree/main/notes/11-Custom-Video-Player.md)
+12. [Key Sequence Detection](https://github.com/tocz9es/javascript30-notes/tree/main/notes/12-Key-Sequence-Detection.md)
