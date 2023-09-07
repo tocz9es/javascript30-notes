@@ -18,3 +18,4 @@ Just record concepts about learning JavaScript 30 course.
 12. [Key Sequence Detection](https://github.com/tocz9es/javascript30-notes/tree/main/notes/12-Key-Sequence-Detection.md)
 13. [Slide in on Scroll](https://github.com/tocz9es/javascript30-notes/tree/main/notes/13-Slide-in-on-Scroll.md)
 14. [Object and Arrays](https://github.com/tocz9es/javascript30-notes/tree/main/notes/14-Object-and-Arrays.md)
+15. [LocalStorage and Event Delegation](https://github.com/tocz9es/javascript30-notes/tree/main/notes/15-LocalStorage-and-Event-Delegation.md)
