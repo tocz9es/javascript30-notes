@@ -20,3 +20,4 @@ Just record concepts about learning JavaScript 30 course.
 14. [Object and Arrays](https://github.com/tocz9es/javascript30-notes/tree/main/notes/14-Object-and-Arrays.md)
 15. [LocalStorage and Event Delegation](https://github.com/tocz9es/javascript30-notes/tree/main/notes/15-LocalStorage-and-Event-Delegation.md)
 16. [CSS Text Shadow Mouse Move Effect](https://github.com/tocz9es/javascript30-notes/tree/main/notes/16-CSS-Text-Shadow-Mouse-Move-Effect.md)
+17. [Sort Band Names Without Articles](https://github.com/tocz9es/javascript30-notes/tree/main/notes/17-Sort-Without-Articles.md)
