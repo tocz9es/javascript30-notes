@@ -23,3 +23,4 @@ Just record concepts about learning JavaScript 30 course.
 17. [Sort Band Names Without Articles](https://github.com/tocz9es/javascript30-notes/tree/main/notes/17-Sort-Without-Articles.md)
 18. [Tally String Times with Reduce](https://github.com/tocz9es/javascript30-notes/tree/main/notes/18-Tally-String-Times-with-Reduce.md)
 19. [Unreal Webcam Fun](https://github.com/tocz9es/javascript30-notes/tree/main/notes/19-Unreal-Webcam-Fun.md)
+20. [Native Speech Recognition](https://github.com/tocz9es/javascript30-notes/tree/main/notes/20-Native-Speech-Recognition.md)
