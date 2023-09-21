@@ -24,3 +24,4 @@ Just record concepts about learning JavaScript 30 course.
 18. [Tally String Times with Reduce](https://github.com/tocz9es/javascript30-notes/tree/main/notes/18-Tally-String-Times-with-Reduce.md)
 19. [Unreal Webcam Fun](https://github.com/tocz9es/javascript30-notes/tree/main/notes/19-Unreal-Webcam-Fun.md)
 20. [Native Speech Recognition](https://github.com/tocz9es/javascript30-notes/tree/main/notes/20-Native-Speech-Recognition.md)
+21. [Geolocation based Speedometer and Compass](https://github.com/tocz9es/javascript30-notes/tree/main/notes/21-Geolocation.md)
