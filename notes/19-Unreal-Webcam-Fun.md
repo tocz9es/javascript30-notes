@@ -8,7 +8,7 @@ Display user's camera and apply different effects on page using browser provided
 
 ### `MediaDevices.getUserMedia()`
 
-This method belongs to the Media Capture and Streams API which provides support for streaming audio and video data. The method ask the user for permission to use a media input. This lesson is using this and assigns the result to a video element.
+This method belongs to the Media Capture and Streams API which provides support for streaming audio and video data. The method ask the user for permission to use a media input. This lesson utilizes this method and assigns the result to a video element.
 
 ```javascript
 const video = document.querySelector('.player')
@@ -27,7 +27,7 @@ getVideo()
 
 ### Canvas
 
-`<canvas>` is a HTML element to draw graphics and animations. Unlike the `<img>` element, this requires the closing tag. In this lesson, a `<canvas>` element is given. Before using `drawImage()` to draw the video image onto it, it's necessary to use `getContext()` to get a drawing context.
+`<canvas>` is a HTML element used to draw graphics and animations. Unlike the `<img>` element, it requires a closing tag. In this lesson, a `<canvas>` element is provided. Before using `drawImage()` to draw the video image onto it, it's necessary to use `getContext()` to obtain a drawing context.
 
 ```javascript
 const canvas = document.querySelector('.photo')
@@ -44,13 +44,13 @@ function paintToCanvas() {
 }
 ```
 
-After user confirm the authentication of `getUserMedia()`, the `paintToCanvas()` function should be activated with an `canplay` event listener.
+After the user confirms the authentication of `getUserMedia()`, the `paintToCanvas()` function should be activated with a `canplay` event listener.
 
 ```javascript
 video.addEventListener('canplay', paintToCanvas)
 ```
 
-In order to achieve the `takePhoto()` function, canvas' data can take out and convert to Base64 URL. We can create a `<a>` link element and replace the `src` attribute with URL, also set `download` attribute to make this link can be download.
+To implement the `takePhoto()` function, the data from canvas can be extracted and converted to a Base64 URL. We can create an `<a>` link element and set its `href` attribute to the URL. Additionally, we can set `download` attribute to make this link downloadable.
 
 ```javascript
 function takePhoto() {
@@ -68,7 +68,7 @@ function takePhoto() {
 }
 ```
 
-The manipulations to show different effects basically use `getImageData()` to extract every pixels' `rgba`, then put these `rgba` data to a recalculate functions, finally use `putImageData()` to put modifications back.
+The manipulations to display different effects basically use `getImageData()` to extract the `rgba` values of each pixel, then passing these `rgba` data to a recalculation functions, finally use `putImageData()` to apply modifications.
 
 Here's some effects in this lesson:
 
